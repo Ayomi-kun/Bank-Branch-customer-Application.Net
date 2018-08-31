@@ -178,11 +178,16 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="Initial Deafult.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Account\Web.config" />
+    <Content Include="BranchEntry.aspx" />
+    <Content Include="BankEntry.aspx" />
+    <Content Include="CustomerEntry.aspx" />
+    <Content Include="ReportEntry.aspx" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -355,6 +360,13 @@
     <Compile Include="Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Initial Deafult.aspx.cs">
+      <DependentUpon>Initial Deafult.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Initial Deafult.aspx.designer.cs">
+      <DependentUpon>Initial Deafult.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -388,6 +400,34 @@
     </Compile>
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="BranchEntry.aspx.cs">
+      <DependentUpon>BranchEntry.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BranchEntry.aspx.designer.cs">
+      <DependentUpon>BranchEntry.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BankEntry.aspx.cs">
+      <DependentUpon>BankEntry.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BankEntry.aspx.designer.cs">
+      <DependentUpon>BankEntry.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerEntry.aspx.cs">
+      <DependentUpon>CustomerEntry.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CustomerEntry.aspx.designer.cs">
+      <DependentUpon>CustomerEntry.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ReportEntry.aspx.cs">
+      <DependentUpon>ReportEntry.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReportEntry.aspx.designer.cs">
+      <DependentUpon>ReportEntry.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup />
